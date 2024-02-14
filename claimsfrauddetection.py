@@ -12,14 +12,11 @@ from tqdm import tqdm
 # Set title of the web app
 st.title('Health Insurance Claims Fraud Detection')
 
-# Loading the cleaned claim data
-# data = pd.read_csv('C:/claims_fraud_datasets/cleanedclaim_data.csv')
-
 # creating a sidebar for adjusting the test size
 st.subheader('XGBoost Classifier')
 
 # Load the trained XGBoost model
-xgb_model = pickle.load(open('C:/Isaac/trained_xgb_model.sav', 'rb'))
+xgb_model = pickle.load(open('trained_xgb_model.sav', 'rb'))
 
 # Data cleanup and feature engineering
 def preprocess_data(input_data):
