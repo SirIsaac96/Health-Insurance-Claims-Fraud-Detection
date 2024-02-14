@@ -6,7 +6,7 @@ import streamlit as st # for deployment
 import pandas as pd # for numerical computation
 #import matplotlib.pyplot as plt # for data visualization
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-import xgboost
+#import xgboost
 from tqdm import tqdm
 
 # Set title of the web app
