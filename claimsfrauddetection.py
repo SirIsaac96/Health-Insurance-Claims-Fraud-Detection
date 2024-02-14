@@ -4,7 +4,7 @@ import numpy as np # for data manipulation
 import pickle # for loading the saved model
 import streamlit as st # for deployment
 import pandas as pd # for numerical computation
-import matplotlib.pyplot as plt # for data visualization
+#import matplotlib.pyplot as plt # for data visualization
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import xgboost
 from tqdm import tqdm
