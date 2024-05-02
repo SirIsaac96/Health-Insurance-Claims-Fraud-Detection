@@ -7,7 +7,7 @@ import pandas as pd # for numerical computation
 #import matplotlib.pyplot as plt # for data visualization
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import xgboost
-from tqdm import tqdm
+#from tqdm import tqdm
 
 # Set title of the web app
 st.title('Health Insurance Claims Fraud Detection')
